@@ -1,0 +1,177 @@
+/* כלליות */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: right;
+}
+
+body.dark-mode {
+  background-color: #2c2c2c;
+  color: #ffffff;
+
+}
+
+
+#darkModeToggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#darkModeToggle:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-color: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.header-h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.header-p {
+  font-size: 1.2rem;
+  margin-top: 0;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.hedarBtn {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.hedarBtn button {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hedarBtn button:hover {
+  background-color: #007bff;
+}
+
+.hedarBtn a {
+  color: #333;
+  display: block;
+  padding: 5px;
+}
+
+.hedarBtn button a {
+  color: inherit;
+}
+
+main {
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+
+#about,
+.products-h2,
+.conect {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+h2 a {
+  font-weight: bold;
+  color: #333;
+}
+
+.pH2 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.conect a {
+  font-weight: bold;
+  color: #007bff;
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .hedarBtn {
+    flex-direction: column;
+  }
+
+  .header-h1 {
+    font-size: 2.5rem;
+  }
+
+  .header-p {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .pH2 {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

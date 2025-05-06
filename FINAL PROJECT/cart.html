@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>עגלת קניות</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="https://sandbox.paypal.com/sdk/js?client-id=ATM3qpTrhL_nIZ2Mcx8XMswlRQ-vLPQudLak8YHkqg_Pq_JDRXMTSfPa4aH8fhcSglGBtOQ1T309r0f_&components=buttons"></script>
+</head>
+
+<body>
+  <h1>עגלת קניות</h1>
+  <table id="cart">
+    <thead>
+      <tr>
+        <th>שם המוצר</th>
+        <th>מחיר יחידה</th>
+        <th>כמות</th>
+        <th>תת-מחיר</th>
+        <th>הסר</th>
+      </tr>
+    </thead>
+    <tbody id="cart-items">
+
+    </tbody>
+  </table>
+  <h2 id="total-value">סה"כ: $0.00</h2>
+  <div id="paypal-button-container"></div>
+  <script src="/cart.js"></script>
+
+
+
+</body>
+
+</html>
